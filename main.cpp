@@ -8,7 +8,6 @@ void printArray(int* array, int size);
 void deleteArray(int* array);
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
     std::cout << "Please enter an array size: ";
     int size;
     std::cin >> size;
@@ -23,7 +22,7 @@ int main() {
 int* createArray(int size) {
     int* dynamicArray = new int[size];
     for(int i = 0; i < size; i++){
-        dynamicArray[i] = rand();
+        dynamicArray[i] = i;
     }
     return dynamicArray;
 }
