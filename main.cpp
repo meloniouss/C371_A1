@@ -1,4 +1,3 @@
-#include <random>
 #include <iostream>
 
 
@@ -29,6 +28,7 @@ int* createArray(int size) {
 
 // Function to print array values
 void printArray(int* array, int size) {
+    std::cout << "The array contains the following numbers:" << std::endl;
     for (int i = 0; i < size; i++) {
         std::cout << array[i] << " ";
     }
