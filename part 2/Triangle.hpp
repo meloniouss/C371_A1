@@ -1,4 +1,4 @@
-#include "Point.hpp";
+#include "Point.hpp"
 
 class Triangle
 {
@@ -9,4 +9,6 @@ public:
           vertex_2(p2),
           vertex_3(p3) {}
     void translate(int d, char axis);
+    double calcArea();
+    void printPoints();
 };

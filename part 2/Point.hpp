@@ -1,11 +1,14 @@
 class Point
 {
 public:
-    int x, y, z;
-    Point(int x, int y, int z)
+    double x, y, z;
+    Point()
+        : x(0),
+          y(0),
+          z(0) {}
+    Point(double x, double y, double z)
         : x(x),
           y(y),
           z(z) {}
-    ~Point();
-    int translate(int d, char axis);
+    double translate(int d, char axis);
 };

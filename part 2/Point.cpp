@@ -1,6 +1,6 @@
 #include "Point.hpp"
 
-int Point::translate(int d, char axis)
+double Point::translate(int d, char axis)
 {
     switch (axis)
     {
