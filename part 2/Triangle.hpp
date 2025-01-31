@@ -8,6 +8,7 @@ public:
         : vertex_1(p1),
           vertex_2(p2),
           vertex_3(p3) {}
+    ~Triangle() {}
     void translate(int d, char axis);
     double calcArea();
     void printPoints();

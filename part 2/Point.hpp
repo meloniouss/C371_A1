@@ -10,5 +10,6 @@ public:
         : x(x),
           y(y),
           z(z) {}
+    ~Point() {}
     double translate(int d, char axis);
 };
