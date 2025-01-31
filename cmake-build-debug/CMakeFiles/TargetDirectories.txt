@@ -1,0 +1,3 @@
+/Users/andrei/CLionProjects/C371_A1/cmake-build-debug/CMakeFiles/C371_A1.dir
+/Users/andrei/CLionProjects/C371_A1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/andrei/CLionProjects/C371_A1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
